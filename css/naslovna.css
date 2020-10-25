@@ -1,0 +1,45 @@
+
+
+.banner {
+ 
+  background-position: center center;
+  background-size: cover;
+  
+  height: 70vh;
+  overflow: hidden;
+}
+#slider {
+  width: 500%;
+
+  white-space: nowrap; 
+
+  
+}
+#slider img {
+  width: 20%;
+  float: left;
+}
+.slider {
+  transition: all 1s;
+}
+
+
+.content {
+  text-align: center;
+  
+  padding: 50px;
+}
+
+
+.content h1 {
+  font-size: 45px;
+  color: #1c1b1b;
+  
+   padding-bottom: 15px;
+}
+
+.content p {
+  color: #1c1b1b;
+  padding: 10px 0;
+  text-align: center;
+}

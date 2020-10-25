@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <title>Metal Magazine-Tickets</title>
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/karte.css">
+    <meta name="description" content="Ticket for the rock and metal shows">
+    <meta name="keywords" content="Metal shows, metal concerts, black metal, metal music,rock concerts, metalcore">
+    <meta charset='utf8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div class='header'>
+        <div class="logo">
+          <a href="naslovna.html">
+            <img src="slike/logo.png" alt="Logo Metal Magazin">
+          </a>
+        </div>
+        <span><i class="fa fa-bars bar fa-3x" aria-hidden="true"></i></span>
+        <nav class="menuu">
+          <a href="index.html">Home</a>
+          <a href="vesti.html">News</a>
+          <a href="bendovi.html">Bands</a>
+          <a href="karte.html" class='active'>Tickets</a>
+        </nav>
+  </div>
+  <div class="karte">
+      <img src="slike/karte.jpg" >
+      <form name="obrazac">
+        <p id="ispis-greske"></p>
+        <input type="text"  name="ime"     onclick='ukloni()' placeholder="IME">
+        <input type="text"  name="prezime" onclick='ukloni()' placeholder="PREZIME">
+        <input type="email" name="email"   onclick='ukloni()' placeholder="E-MAIL">
+        <input type="text"  name='karta'   onclick='ukloni()' placeholder="SIFRA KONCERTA">
+        <input type="button" value="KUPI" onclick="validacija()">
+      </form>
+  </div>
+  <script src="js/karte.js"></script>
+</body>
+</html>

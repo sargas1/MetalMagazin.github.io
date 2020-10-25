@@ -1,0 +1,3 @@
+User agent: *
+Disallow: /slike
+Allow: /slike/slika2.jpg

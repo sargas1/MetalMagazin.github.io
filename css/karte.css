@@ -1,0 +1,47 @@
+.karte {
+  padding: 50px 0;
+}
+
+.karte img {
+ 
+  margin: 0 auto;
+}
+
+.karte form {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.karte form input {
+  
+  display: block;
+  width: 100%;
+  padding: 15px 45px;
+  margin: 15px auto;
+  
+  border-radius: 4px;
+  border: 2px solid #b7b6b6;
+  text-align: center;
+}
+
+ input[type='button'] {
+  background: #212121;
+  transition: all .5s ease;
+  cursor: pointer;
+  color: white;
+}
+
+input[type='button']:hover {
+  background: grey;
+}
+
+#ispis-greske {
+  color: darkred;
+  font-size: 25px;
+  text-align: center;
+}
+
+.greska {
+  border: 2px solid darkred !important;
+}

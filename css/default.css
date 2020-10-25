@@ -1,0 +1,123 @@
+
+* {
+  
+  margin: 0;
+  
+  padding: 0;
+  
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+
+img {
+  max-width: 100%;
+ 
+  display: block;
+  
+  height: auto;
+}
+
+.header {
+  background: #262626;
+ 
+  overflow: hidden;
+ 
+  padding: 20px 0px;
+}
+
+.header .logo {
+  
+  float: left;
+  width: 75px;
+  height: 75px;
+  margin-left: 20px;
+ 
+  animation: logo 3s ease infinite alternate;
+}
+
+
+@keyframes logo {
+  0% {
+     transform: rotateY(0deg);
+  }
+  100% {
+     transform: rotateY(180deg);
+  }
+}
+
+.header nav {
+  float: right;
+  margin-top: 30px;
+}
+
+.header nav a {
+  margin: 0 20px;
+  font-size: 18px;
+  color: white;
+  
+  text-decoration: none;
+  font-weight: bold;
+  
+  transition: all 0.4s ease;
+  
+  text-transform: uppercase;
+}
+
+
+.header nav a:hover {
+  color: #AAABD3;
+}
+
+.header nav a.active {
+  color: #AAABD3;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .header nav a {
+    margin: 0 15px;
+  }
+}
+
+@media only screen and (max-width: 630px) {
+  .header nav {
+    float: none;
+    text-align: center;
+  }
+  .header nav a {
+    display: block;
+    margin: 20px 0;
+  }
+  .header nav a.active {
+    padding-bottom: 7px;
+    border-bottom: 1px solid #AAABD3;
+  }
+}
+
+
+.header i{
+  color: white;
+  margin-right: 10px;
+}
+
+.header  span {
+  float: right;
+  
+  display: none;
+}
+
+
+@media (max-width: 900px){
+  .header  span {
+    display: block;
+     
+  }
+  .header  nav {
+    display: none;
+    
+
+}

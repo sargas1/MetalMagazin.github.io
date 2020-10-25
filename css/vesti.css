@@ -1,0 +1,65 @@
+.sadrzaj {
+  padding: 10px;
+}
+
+.sadrzaj .vesti {
+  overflow: hidden;
+  padding: 30px 0;
+  border-bottom: 1px solid #c9c9c9;
+}
+
+.sadrzaj .vesti-img {
+  float: left;
+  width: 30%;
+  text-align: right;
+}
+
+.sadrzaj .vesti-img img {
+  width: 90%;
+  display: block;
+  float: right;
+
+}
+
+.sadrzaj .vesti-sadrzaj {
+  float: right;
+  width: 68%;
+}
+
+.sadrzaj .vesti-sadrzaj h2 {
+  margin-bottom: 20px;
+}
+
+
+.sadrzaj .vesti-sadrzaj p:first-of-type {
+  font-weight: bold; 
+  
+}
+
+.sadrzaj .vesti-sadrzaj p {
+  padding-bottom: 15px;
+}
+
+.sadrzaj .vesti-sadrzaj a {
+  text-decoration: none;
+  color: #23226B;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 900px) {
+  .sadrzaj .vesti {
+    padding: 30px 0;
+  }
+  .sadrzaj .vesti-img {
+    float: none;
+    width: auto;
+  }
+  .sadrzaj .vesti-sadrzaj {
+    float: none;
+    width: auto;
+  }
+  .sadrzaj .vesti-sadrzaj h2 {
+    padding: 20px 0 10px 0;
+  }
+}
